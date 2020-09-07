@@ -50,7 +50,7 @@ float Circle::area()
 void Circle::cetakPoint()
 {
     Point::cetakPoint();
-    std::cout << "Circle dengan r : " << radius << "Center : [" << x << "," << y << "]" << std::endl;
+    std::cout << "Circle dengan r : " << radius << " Center : [" << x << "," << y << "]" << std::endl;
     std::cout << "Luas Circle : " << l << std::endl;
 }
 
