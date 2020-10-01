@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int jumlah_index(const char *s);
-
+void watermark();
 int main()
 {
     char string[80];
@@ -18,6 +18,7 @@ int main()
     {
         printf("%c", ptr_string[index_string - 1]);
     }
+    watermark();
 }
 int jumlah_index(const char *s)
 {
@@ -27,4 +28,11 @@ int jumlah_index(const char *s)
         ++x;
     }
     return x;
+}
+void watermark()
+{
+    printf("---------------------------------------------------------------------\n");
+    printf("-----------------------Fadhil Elrizanda------------------------------\n");
+    printf("-----------------------1910952034------------------------------------\n");
+    printf("-----------------------Pemrograman 2 TE C----------------------------\n");
 }

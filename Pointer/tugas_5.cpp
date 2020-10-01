@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+void watermark();
 void kali_dua(int *a, int *b, int *c);
 int main()
 {
@@ -11,10 +11,18 @@ int main()
     printf("Masukkan bilangan 3 : ");
     scanf("%d", &z);
     kali_dua(&x, &y, &z);
+    void watermark();
 }
 void kali_dua(int *a, int *b, int *c)
 {
     printf("Bilangan pertama menjadi : %d \n", *a * 2);
     printf("Bilangan kedua menjadi : %d \n", *b * 2);
     printf("Bilangan ketiga menjadi : %d \n", *c * 2);
+}
+void watermark()
+{
+    printf("---------------------------------------------------------------------\n");
+    printf("-----------------------Fadhil Elrizanda------------------------------\n");
+    printf("-----------------------1910952034------------------------------------\n");
+    printf("-----------------------Pemrograman 2 TE C----------------------------\n");
 }

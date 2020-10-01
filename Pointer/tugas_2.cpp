@@ -9,7 +9,7 @@ int misteri3(const char *s)
     }
     return x;
 }
-
+void watermark();
 int main()
 {
     char string[80];
@@ -17,5 +17,13 @@ int main()
     ptr_string = &string[0];
     printf("Ketikkan sebuah string ");
     scanf("%s", &string);
-    printf("%d \n", misteri3(ptr_string));
+    printf("Jumlah karakter = %d \n", misteri3(ptr_string));
+    watermark();
+}
+void watermark()
+{
+    printf("---------------------------------------------------------------------\n");
+    printf("-----------------------Fadhil Elrizanda------------------------------\n");
+    printf("-----------------------1910952034------------------------------------\n");
+    printf("-----------------------Pemrograman 2 TE C----------------------------\n");
 }
