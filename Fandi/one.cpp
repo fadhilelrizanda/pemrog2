@@ -6,7 +6,7 @@ One::One(int a, int b)
 {
     x = a;
     y = b;
-};
+}
 int One::getX()
 {
     return x;
